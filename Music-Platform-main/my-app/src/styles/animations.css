@@ -1,0 +1,76 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+        filter: blur(5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+
+@keyframes fadeInDelayed {
+    0% {
+        opacity: 0;
+        transform: translateY(8px);
+        filter: blur(3px);
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(8px);
+        filter: blur(3px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-fade-in-delayed {
+    animation: fadeInDelayed 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Gradient animation */
+@keyframes gradientFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gradient-animate {
+    background-size: 200% 200%;
+    animation: gradientFlow 8s ease infinite;
+}
+
+/* Pulse animation for the divider line */
+@keyframes pulse {
+    0% {
+        opacity: 0.8;
+        transform: scaleX(1);
+    }
+    50% {
+        opacity: 0.4;
+        transform: scaleX(1.1);
+    }
+    100% {
+        opacity: 0.8;
+        transform: scaleX(1);
+    }
+}
+
+.animate-pulse {
+    animation: pulse 2s ease-in-out infinite;
+} 

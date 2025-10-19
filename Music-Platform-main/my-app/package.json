@@ -1,0 +1,69 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@iconify-icons/ic": "^1.2.13",
+    "@iconify-icons/material-symbols": "^1.2.58",
+    "@iconify-icons/mdi": "^1.2.48",
+    "@iconify-icons/ph": "^1.2.5",
+    "@iconify/react": "^4.1.1",
+    "@mdi/js": "^7.4.47",
+    "@svgr/webpack": "^8.1.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.2",
+    "cloudinary": "^1.41.0",
+    "cloudinary-core": "^2.13.0",
+    "howler": "^2.2.4",
+    "react": "^18.2.0",
+    "react-cookie": "^6.1.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "5.0.1",
+    "react-svg": "^16.1.31",
+    "socket.io-client": "^4.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "postcss": "^8.5.4",
+    "stream-browserify": "^3.0.0",
+    "tailwindcss": "^3.4.17"
+  }
+}
